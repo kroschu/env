@@ -1,25 +1,25 @@
-title:            Site Title
-description:      Describe your website here.
-disqus_shortname: 
+title:  TpebaTak
+description:  I am giving myself the opportunity to do something really necessary.
+disqus_shortname: trebatak
 reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: https://mmistakes.github.io, http://yourdomain.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url:
+url: https://en-vokov.treba.tk
 
 # Owner/author information
 owner:
-  name:           Your Name
+  name:          Volodymyr Kovalenko
   avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good sentence or two should suffice."
-  email:          you@email.com
+  bio:            "Father. Son. Husband. Engineer. Citizen."
+  email:          kroschu@mail.ua
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
+  twitter:  kroschu      
   facebook:       
-  github:         
+  github:   kroschu      
   stackexchange:  
-  linkedin:       
-  instagram:      
+  linkedin:  kroschu     
+  instagram: kroschu   
   flickr:         
   tumblr:         
   # google plus id, include the '+', eg +mmistakes
@@ -28,6 +28,9 @@ owner:
 # Background image to be tiled on all pages
 background: 
 
+# мови перекладу
+
+
 # Analytics and webmaster tools stuff goes here
 google_analytics:   
 google_verify:      
@@ -35,7 +38,7 @@ google_verify:
 bing_verify:         
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:  Europe/Kiev
 future:      false  # publish future dated posts --  true, false (default) 
 highlighter: rouge
 markdown:    kramdown
