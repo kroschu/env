@@ -13,129 +13,129 @@ tags: [bpm bpms]
 image:
   path: /images/abstract-3.jpg
   feature: abstract-3.jpg
-  credit: vokov
+  credit: Ukrainian
   creditlink: https://treba.tk/
 ---
-Підприємство являє собою систему, усередині якої  відбувається безліч взаємозв'язаних процесів, які своїм функціонуванням  визначають стан усієї організаційної системи. **Процесний підхід** – це розгляд всієї діяльності підприємства як сукупності взаємодіючих процесів, що протікають усередині організаційної структури підприємства і реалізовують мету його існування. Світовий досвід показує, що динамічний розвиток ринку товарів та послуг, постійні зміни в зовнішньому середовищі та зростання конкуренції зумовлюють необхідність пошуку нових інструментів і методів управління підприємствами.
+The company is a system within which there are many interrelated processes that determine the state of its functioning of the entire organizational system. ** Process approach** - is the consideration of the entire activity of the enterprise as a set of interacting processes occurring within the organizational structure of the enterprise and realize the purpose of its existence. World experience shows that the dynamic development of the market of goods and services, constant changes in the external environment and the growth of competition necessitate the search for new tools and methods of enterprise management.
 
-Сучасне зовнішнє середовище підприємств характеризується надзвичайно високим рівнем складності, мінливості та невизначеності. В таких умовах головним завданням підприємства стає швидке реагування на зміни і впровадження відповідних заходів в організації і здійсненні виробничої діяльності.
+The modern external environment of enterprises is characterized by an extremely high level of complexity, variability and uncertainty. In such circumstances, the main task of the company is to respond quickly to changes and the introduction of appropriate measures in the organization and implementation of production activities.
 
-Саме тому функціонування українських підприємств відзначається необхідністю застосування процесного  підходу до управління ними.
+That is why the functioning of Ukrainian enterprises is marked by the need to apply a process approach to their management.
 
-Для вирішення поставлених питань потрібно комплексно розглянути сутність процесного  підходу до управління, особливості бізнес-процесів підприємства та способи їх  удосконалення.
+To address these issues, it is necessary to comprehensively consider the essence of the process approach to management, especially the business processes of the enterprise and ways to improve them.
 
-<!---excerpt-break-->
+<!--- excerpt-break-->
 
-Більшість підприємств сьогодні побудовано за функціональним принципом та рівнями ієрархії. Такий підхід був закладений Ф. Тейлором і його розвиток протягом останнього століття призвів до  поширення функціональних організаційних структур управління підприємствами. Широке застосування функціональних структур управління, тим не менш створює значні ускладнення в  здійсненні ефективного управління. Функціональні підрозділи підприємства є відносно відособленими, не завжди системно розуміють процеси функціонування усієї організації і не зацікавлені в тому, що їх безпосередньо не стосується. Комунікації між різними функціональними підрозділами часто значною мірою гальмуються через надмірну схильність до бюрократичних правил передачі повідомлення нагору по рівнях ієрархії.
+Most enterprises today are built on the functional principle and levels of hierarchy. Such an approach was laid down by Taylor and its development during the last century led to the spread of functional organizational structures of enterprise management. The widespread use of functional management structures, however, poses significant challenges to effective management. The functional units of the enterprise are relatively separate, do not always systematically understand the processes of functioning of the entire organization and are not interested in what does not directly concern them. Communication between the various functional units is often significantly hampered by an excessive tendency to bureaucratic rules of communication up the hierarchy levels.
 
-Такий підхід характерний для організації праці що на радянських підприємствах, нащадками яких є велика частка сучасних компаній моєї країни, що в західних компаніях - переважно сухі, складні для сприйняття текстові інструкції, що відносяться переважно до функціонального підходу:
+This approach is typical for the organization of labor in the Soviet enterprises, the descendants of which have a large share of modern companies in my country, that in Western companies-mostly dry, difficult to understand text instructions that relate primarily to the functional approach:
 
-1\. Опис робочого місця
+1. Workplace description
 
-2\. Посадова інструкція співробітника
+2. Employee job description
 
-3\. Вимоги техніки безпеки і т. п.
+3. Safety requirements, etc.
 
-Все це, як багато хто пам'ятає, вкрай складно сприймається, і значна частина подібних інструкцій припадали пилом на полицях, найчастіше, ніким, крім творця, не прочитані. А досвід і вимоги передавалися від досвідченого співробітника новачкові.
+All this, as many remember, is extremely difficult to perceive, and a significant part of these instructions were dusting on the shelves, often, no one but the Creator, not read. And experience and requirements were transferred from the skilled employee to the beginner.
 
-А що робити, якщо з'являється необхідність швидко змінити роботу цілої організації? А якщо ще при цьому впроваджується автоматизація? Відповід на ці запити і стала поява BPM (Business Process Management, BPM), BPMN (_Business Process Model and Notation_), BPMS (Business Process Management System) та відповідного підходу до організації і управління виробництвом на їх основі.
+And what if there is a need to quickly change the work of the whole organization? And if at the same time introduced automation? Answers to these requests and was the emergence of BPM (Business Process Management, BPM), BPMN (_Business Process Model and Notation_), BPMS (Business Process Management System) and an appropriate approach to the organization and management of production based on them.
 
-> * BPM – це методологія. тобто набір основних принципів і підходів до побудови нотацій і самої організації роботи за допомогою бізнес-процесів.
-> * BPMN – нотація(мова), в якій будуються нотації, в тому числі, виконувані
-> * BPMS – IT система виконання, побудована за певними правилами, заданих в методологі.
+> * BPM is a methodology. that is, a set of basic principles and approaches to the construction of notations and the organization of work with the help of business processes.
+> * BPMN-notation (language), in which notations are built, including those performed
+> * BPMS-it execution system built according to certain rules specified in the methodology.
 >
-> Якщо проводити аналогію з наукою, то BPM — це перш за все підхід, свого роду світогляд. BPMN — це методи і алгоритми вирішення конкретних завдань у вигляді моделі, що використовуючи однойменну нотацію  описує, наприклад, докази теорем, або набір методів для створення проекту забезпечення електрикою виробничого об'єкта . А, в свою чергу, BPMS - це вже готові прикладні рішення, які можна "включити" і вони вже будуть працювати. Для математики це-готові рішення завдань, що мають практичне значення. Для фізики — безпосередня реалізація тієї самої електропроводки і підключення об'єктів. Для сфери айті — готовий програмний код.
+> If we draw an analogy with science, BPM is primarily an approach, a kind of worldview. BPMN are methods and algorithms for solving specific problems in the form of a model, using the same name record describes, for example, proofs of theorems, or a set of methods for creating a project to provide electricity to a production facility . And, in turn, BPMS is ready-made application solutions that can be "turned on" and they will already work. For mathematics, these are ready-made solutions to problems of practical importance. For physics-direct implementation of the same wiring and connection of objects. For the sphere of it — ready program code.
 
-Управління бізнес-процесами полягає в тому, що ви регламентуєте, описуєте і змінюєте бізнес-процеси. Саме змінюєте, а не покращуєте, адже ви можете як поліпшити так і погіршити бізнес процес. На відміну від верстата або автомобіля, безпосередньо управляти за допомогою директив або натискання кнопки колективом неможливо. Але можна задати послідовність дій, яку буде виконувати колектив при вирішенні тієї чи іншої задачі. Саме це і називається BPM.
+Business process management is what you regulate, describe, and change business processes. It is changing, not improving, because you can both improve and worsen the business process. Unlike a machine or a car, it is not possible to directly control a team by means of directives or by pressing a button. But you can set the sequence of actions that the team will perform when solving a particular task. This is what is called BPM.
 
-Якщо стисло то:
+If compressed the:
 
-> Управління бізнес-процесами (BPM) – це управління діями (автоматизованими і неавтоматизирвоанными) в колективі за допомогою бізнес-процесів.
+> Business process management (BPM) is the management of activities (automated and manual) in a team through business processes.
 
-Щоб керувати будь-якими бізнес процесами необхідно:
+To manage any business processes you need:
 
-1\. Описати самі бізнес-процеси.
+1\. Describe the business processes themselves.
 
-2\. Впровадити в роботу колективу описаний бізнес-процес.
+2\. Implement the described business process into the work of the team.
 
-3\. Призначити людей, відповідальних за бізнес-процеси, так званих, стек-холдерів або власників бізнес-процесів.
+3\. Assign people responsible for business processes, so-called stack-holders or owners of business processes.
 
-Щоб **описати бізнес-процес** треба добре розуміти чим він є для підприємства.
+** Describe the business process* * it is necessary to understand well what it is for the enterprise.
 
-Процес взагалі – це послідовна зміна предметів і явищ, станів об'єкту в часі, сукупність послідовних дій, спрямованих на досягнення певного результату. Отже ключовими ознаками процесу взагалі і бізнес-процесу зокрема, слід вважати зміну стану об'єкта і спрямованість на певний результат.
+The process in General is a consistent change of objects and phenomena, the States of the object in time, a set of sequential actions aimed at achieving a certain result. Therefore, the key features of the process in General and the business process in particular, should be considered a change in the state of the object and focus on a certain result.
 
-Бізнес-процеси підприємства включають в себе широкий спектр різних за своєю природою процесів, що пояснює відсутність усталеного визначення бізнес-процесу. В даний час існує багато  визначень поняття бізнес-процесу, які описують бізнес-процес з різних точок  зору.
+Business processes of the enterprise include a wide range of processes different in nature, which explains the lack of a well-established definition of the business process. Currently, there are many definitions of the concept of business process, which describe the business process from different points of view.
 
-Усі визначення об'єднує насамперед акцентування уваги на тому, що бізнес-процеси є безперервними, мають певні входи (постачання ресурсів, виникнення ідеї нового продукту, послуги тощо) і виходи у вигляді продукту, що задовольняє потреби споживачів.
+All definitions are United primarily by the emphasis on the fact that business processes are continuous, have certain inputs (supply of resources, the emergence of new product ideas, services, etc.) and outputs in the form of a product that meets the needs of consumers.
 
-На мій погляд, бізнес-процес являє собою спланований алгоритм взаємопов'язаних дій чи потоків роботи, який підлягає систематичним змінам під впливом факторів зовнішнього і внутрішнього середовища, в якому задіяні всі ресурси організації, спрямований на задоволення попиту споживачів і максимізацію прибутку. Цей процес має початок (вхід),  певну кількість стадій діяльності і результат роботи, який отримується на  виході.
+In my opinion, the business process is a planned algorithm of interrelated actions or work flows, which is subject to systematic changes under the influence of external and internal factors, which involves all the resources of the organization, aimed at meeting customer demand and maximizing profits. This process has a beginning (input), a certain number of stages of activity and the result of the work that is obtained at the output.
 
-Не кожен процес, що здійснюється на підприємстві, можна назвати бізнес-процесом, навіть якщо цей процес призводить до створення продукту, що представляє цінність для кінцевого споживача. Відмінною особливістю бізнес-процесу є його бізнес-спрямованість, тобто він відображає певний напрям господарської діяльності, результатом якого є отримання прибутку. Виробнича діяльність підприємства, метою якої є реалізація виготовленого продукту, є бізнес-процесом, якщо в результаті продажу виробленої продукції підприємство отримає прибуток, оскільки метою створення будь-якого комерційного підприємства є отримання прибутку. Отже, бізнес-процес являє собою сукупність видів діяльності підприємства, результатом яких буде отримання прибутку.
+Not every process that is carried out in the enterprise can be called a business process, even if this process leads to the creation of a product of value to the end user. A distinctive feature of the business process is its business orientation, that is, it reflects a certain direction of economic activity, the result of which is profit. The production activity of the enterprise, the purpose of which is the sale of the produced product, is a business process, if as a result of the sale of the manufactured products the enterprise will make a profit, since the purpose of creating any commercial enterprise is to make a profit. So, the business process is a set of activities of the enterprise, which will result in profit.
 
-Основними бізнес-процесами є ті процеси, які орієнтовані на виробництво продукції або надання послуг, що представляють цінність для клієнта, та забезпечують одержання доходу для підприємства. Як правило, основних бізнес-процесів на підприємстві порівняно  небагато.
+The main business processes are those focused on the production of products or the provision of services that are of value to the customer and provide income for the enterprise. As a rule, the main business processes at the enterprise are relatively few.
 
-Забезпечуючі бізнес-процеси – це допоміжні процеси, які призначені для забезпечення виконання основних бізнес-процесів. У загальному виді вони забезпечують ресурсами та послугами всі  бізнес-процеси підприємства.
+Supporting business processes are supporting processes that are designed to support the execution of core business processes. In General, they provide resources and services to all business processes of the enterprise.
 
-Управлінські бізнес-процеси – це  бізнес-процеси, які охоплюють весь комплекс функцій менеджменту на рівні кожного  бізнес-процесу й бізнес-системи в цілому.
+Management business processes are business processes that cover the full range of management functions at the level of each business process and the business system as a whole.
 
-Бізнес-процеси розвитку – це бізнес-процеси вдосконалення, освоєння нових напрямків і технологій, а також інновацій.
+Business processes of development-business processes of improvement, development of new directions and technologies, as well as innovations.
 
-Виділення і класифікація бізнес-процесів конкретного підприємства, визначення їхніх параметрів – складне  завдання, яке потрібно виконати при запровадженні процесного підходу до організації і управління діяльністю підприємства. Для цього може бути  застосований метод 5W1Н, який полягає у всебічній характеристиці ключових  бізнес-процесів підприємства.
+Allocation and classification of business processes of a particular enterprise, the definition of their parameters-a complex task that must be performed in the implementation of the process approach to the organization and management of the enterprise. To do this, the 5W1H method can be applied, which consists in a comprehensive description of the key business processes of the enterprise.
 
-Щоб **впровадити в роботу колективу бізнес-процес**, потрібно, спершу, довести його перевагу, порівняно в існуючим станом речей, більшу фінансову ефективність інші значимі переваги. Для кожного конкретного бізнес процесу потрібно виконати власне обгрунтування, але, загалом,  впровадження процесного підхіду до організації і управління, дозволяє підприємству отримати такі переваги:
+** Introduce a business process into the work of the team**, you must first prove its advantage, in comparison with the existing state of Affairs, greater financial efficiency, other significant advantages. For each specific business process, you need to perform your own justification, but, in General, the introduction of a process approach to the organization and management, allows the company to obtain the following benefits:
 
-– створюються умови для широкого делегування повноважень і відповідальності виконавцям, що сприяє підвищенню якості продукції і процесів;
+- creating conditions for broad delegation of authority and responsibility to the performers, which contributes to the quality of products and processes;
 
-– кожен працівник підприємства прив'язаний до кінцевого результату і відповідає за його якість;
+- each employee of the company is tied to the final result and is responsible for its quality;
 
-– основним критерієм якості і цінності продукції є задоволення потреб споживачів;
+- the main criterion of quality and value of products is to meet the needs of consumers;
 
-– скорочується кількість рівнів прийняття рішень, унаслідок чого підвищується оперативність і адаптивність діяльності підприємства;
+- reduces the number of levels of decision-making, resulting in increased efficiency and adaptability of the enterprise;
 
-– усуваються невиправдані витрати, які не впливають на процес створення цінності продукції;
+- eliminates unnecessary costs that do not affect the value creation process;
 
-– покращуються комунікації, оскільки обмін інформацією здійснюється усередині робочої групи бізнес-процесу, що виключає її спотворення, а також значно скорочує терміни передачі інформації від одного суб'єкта бізнес-процесу до іншого;
+- communication is improved, as information is exchanged within the working group of the business process, which eliminates its distortion, and significantly reduces the time of information transfer from one subject of the business process to another;
 
-– створюються умови для автоматизації технологій виконання бізнес-процесів.
+- conditions are created for automation of technologies of business processes.
 
-Одним із методів опису бізнес-процесів та технологією організації бізнесу на основі процесного підходу і корпоративних інформаційних систем є метод Workflow. Термін Workflow дослівно означає «потік робіт». Однак технологія Workflow розглядається набагато ширше – як автоматизація бізнес-процесів підприємства, яка є частиною концепції управління бізнес-процесами BPM.
+One of the methods of describing business processes and technology of business organization based on the process approach and corporate information systems is the Workflow method. The term Workflow literally means "workflow". However, Workflow technology is considered much more widely-as automation of business processes of the enterprise, which is part of the BPM business process management concept.
 
-Workflow (згідно глосарію Workflow  Management Coalition, міжнародної організації, що займається введенням  стандартів в системах Workflow) – це впорядкована в часі безліч робочих завдань,  одержуваних і виконуваних співробітниками за допомогою засобів механізації,  автоматизації, або вручну, але в тих послідовностях і в рамках тих правил, які  визначені для даного бізнес-процесу.
+Workflow (according to the Glossary of Workflow Management Coalition), an international organization engaged in the introduction of standards in Workflow systems) is an ordered set of work orders received and performed by employees using mechanization, automation, or manually, but in those sequences and within the framework of those rules that are defined for this business process.
 
-Виникнення технології Workflow у світі стало результатом поступового переходу від функціонально-орієнтованої організації до процесно-орієнтованої. При цьому основна увага фокусується не скільки на окремих функціях бізнесу, як на самому процесі. Як уже показала світова практика, впровадження подібної технології суттєво скорочує тривалість робочих циклів і дозволяє звести до мінімуму час реакції на запити клієнтів і на зміну ситуації на ринку.
+The emergence of Workflow technology in the world was the result of a gradual transition from a functionally-oriented organization to a process-oriented one. At the same time, the focus is not so much on individual business functions as on the process itself. As the world practice has already shown, the introduction of such technology significantly reduces the duration of working cycles and allows to minimize the reaction time to customer requests and to change the situation in the market.
 
-Сьогодні технологію Workflow розглядають як основу моделі організації бізнесу і корпоративних інформаційних систем ХХІ-го століття. Така технологія якнайкраще підходить і до вітчизняних умов ведення бізнесу, основними з яких є непередбачуваність розвитку ринку та зовнішнього середовища.
+Today, Workflow technology is considered as the basis of the business organization model and corporate information systems of the XXI century. This technology is the best suited to the domestic business environment, the main of which is the unpredictability of the market and the environment.
 
-Використання технології Workflow дозволяє підприємству отримати ряд конкурентних переваг, зокрема:
+The use of Workflow technology allows the company to obtain a number of competitive advantages, in particular:
 
-– безперервний контроль та управління змінами, що дозволяє підприємству стати більш динамічною структурою, в якій зміни здійснюються шляхом послідовної адаптації успішного досвіду;
+- continuous change control and management, which allows the company to become a more dynamic structure in which changes are made by consistently adapting successful experience;
 
-– дозволяє управляти якістю як продукції так і робочого процесу та усувати невиправдані витрати;
+- allows you to manage the quality of both products and workflow and eliminate unnecessary costs;
 
-– забезпечує безперервний постійний обмін  інформацією за рахунок автоматизації процесів передачі інформації та наявністю  постійного і об'єктивного зворотного зв'язку всередині організації.
+- provides a continuous constant exchange of information by automating the processes of information transfer and the presence of constant and objective feedback within the organization.
 
-– керівництву підприємства видає інформацію, необхідну для того, щоб ефективно втручатися в процес управління, приймати рішення в потрібний момент;
+- the company's management provides the information necessary to effectively intervene in the management process, to make decisions at the right time;
 
-– забезпечує дієву підтримку прийняття рішень, що впливає на ефективність функціонування підприємства в цілому;
+- provides effective support for decision-making, which affects the efficiency of the enterprise as a whole;
 
-– дозволяє виявляти приховані проблеми (які в інших випадках були б проігноровані), які можуть полягати в неправильній організації бізнес-процесу;
+- allows you to identify hidden problems (which in other cases would have been ignored), which may be in the wrong organization of the business process;
 
-– забезпечує зв'язок між технологіями і людьми, шляхом організації усіх основних компонентів бізнес-процесу – ролей, правил, маршрутів, даних, документів, додатків і комунікацій;
+- enables communication between technology and people by organizing all major components of the business process-roles, rules, routes, data, documents, applications and communications;
 
-– використовуючи Інтернет надає можливість керувати процесом як усередині підприємства, так і поза ним, безпосередньо активно взаємодіючи з клієнтами, постачальниками і партнерами;
+- using the Internet provides an opportunity to manage the process both inside and outside the enterprise, actively interacting with customers, suppliers and partners;
 
-– посилює контроль над продуктивністю виконання завдань, пов'язаних з обробкою інформації;
+- enhances control over the performance of tasks related to information processing;
 
-– надає в розпорядження аналітиків підприємства статистику для аналізу робочих навантажень, витрат, періодів пікового навантаження і багатьох інших аспектів діяльності;
+- provides enterprise analysts with statistics to analyze workloads, costs, peak periods and many other aspects of activity;
 
-– дозволяє моделювати процедури та можливі сценарії їх виконання з високим ступенем деталізації і точності, при цьому доступ до даних про виконання процесів вимагає мінімальних витрат.
+- allows you to model procedures and possible scenarios of their implementation with a high degree of detail and accuracy, while access to data on the implementation of processes requires minimal cost.
 
-Отже, Workflow як технологія ефективного управління та моніторингу бізнес-процесів діяльності, необхідна вітчизняним підприємствам, для яких її впровадження означає упорядкування діяльності, приведення її до чітких процедур і значне підвищення ефективності діяльності.
+Thus, Workflow as a technology of effective management and monitoring of business processes is necessary for domestic enterprises, for which its implementation means streamlining, bringing it into clear procedures and significantly improving the efficiency of activities.
 
-\*_Висновки._*
+\ * Visnovki._*
 
-В сучасних умовах мінливого бізнес-середовища, підприємства, організаційна побудова яких базується на функціонально-ієрархічних засадах, не в змозі забезпечити адекватне оперативне реагування на швидкоплинні зміни і впровадження відповідних заходів в організації і здійсненні підприємницької діяльності. За таких умов ведення бізнесу більш дієвим слід вважати процесний підхід до управління, який є одним із небагатьох способів для підприємства залишатися конкурентоспроможним. Саме тому  функціонування сучасних підприємств відзначаються необхідністю застосування  процесного підходу до управління ними.
+In modern conditions of the changing business environment, enterprises, the organizational structure of which is based on functional and hierarchical principles, are not able to provide adequate rapid response to fleeting changes and the introduction of appropriate measures in the organization and implementation of business activities. Under such business conditions, a process approach to management, which is one of the few ways for an enterprise to remain competitive, should be considered more effective. That is why the functioning of modern enterprises are marked by the need to apply a process approach to their management.
 
-Основним об'єктом процесного підходу до управління є бізнес-процес, який являє собою спланований алгоритм взаємопов'язаних дій чи потоків роботи, який підлягає систематичним змінам під впливом факторів зовнішнього і внутрішнього середовища, в якому задіяні всі ресурси організації, спрямований на задоволення попиту споживачів і максимізацію прибутку. Цей процес має початок (вхід), певну кількість стадій діяльності і результат роботи, який отримується на виході. Підприємство може мати багато різних бізнес-процесів, які групують в такі великі групи: основні, забезпечуючі, управлінські та бізнес-процеси розвитку.
+The main object of the process approach to management is a business process, which is a planned algorithm of interrelated actions or work flows, which is subject to systematic changes under the influence of factors of the external and internal environment, which involves all the resources of the organization, aimed at meeting the demand of consumers and maximizing profits. This process has a beginning (input), a certain number of stages of activity and the result of the work that is obtained at the output. An enterprise can have many different business processes, which are grouped into the following large groups: basic, support, management and business development processes.
 
-Одним із сучасних методів опису бізнес-процесів та технології організації бізнесу і корпоративних інформаційних систем є Workflow, запровадження якого на вітчизняних підприємствах та світових корпорацій  в сучасних умовах дозволить упорядкувати діяльність, підвищити ефективність їх господарської діяльності та конкурентоспроможність.
+One of the modern methods of description of business processes and technology of business organization and corporate information systems Workflow, the introduction of which at domestic enterprises and global corporations in modern conditions will streamline activities, improve the efficiency of their economic activities.
