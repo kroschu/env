@@ -1,33 +1,32 @@
 ---
 layout: post
-title: "Короткий опис BPMN з прикладом / Хабр"
-description: "Для того щоб розібратися, що таке BPMN, потрібно розуміти, що частина цієї абревіатури «BPM» має дві розшифровки - Business Process Modeling і Business Process Management."
+title: "Brief description of BPMN with butt"
+description: "In order to understand what BPMN is, you need to understand that part of this abbreviation "BPM" has two deciphers - Business Process Modeling and Business Process Management."
 tags: [bpm, моделювання]
 modified: 2018-11-9
 comments: true
 image:
   path: /images/abstract-7.jpg
   feature: abstract-7.jpg
-  credit: vokov
+  credit: Ukrainian
+  
 ---
 
-# Короткий опис BPMN з прикладом / Хабр
+![Brief description of BPMN][1]
 
-![Короткий опис BPMN][1]
+Of those, what is BPMN, it is written very much. But the problem is that almost all of the information that can be found on the Internet is targeted at people who have previously encountered BPMN or another business process modeling standard. I suggest to understand "from scratch" - what is BPMN? What are the features and benefits of this technology and why it is the connection was not so popular, at least abroad. Yes, and in our country it is more and more interested.
 
-Про те, що таке BPMN, написано дуже багато. Але проблема в тому, що майже вся інформація, яку можна знайти в Інтернет, орієнтована на людей, які вже раніше стикалися з BPMN або з іншим стандартом моделювання бізнес-процесів. Я ж пропоную розібратися «з нуля» — що таке BPMN? У чому особливості і переваги цієї технології і чому вона з'явилася і виявилася настільки затребуваною, принаймні, за кордоном. Та й у нас в країні їй все більше і більше цікавляться.
+I also want to draw your attention to the fact that here I will talk about notation in BPMN, that is, the language of business process modeling. I, of course, will try as simply as possible to describe the basics of the graph so that they were clear even to beginners. But it's also important to understand that this is where I'm going to talk about language, not methodology.
 
-Також Я хочу відразу звернути вашу увагу на те, що тут я буду говорити саме про нотацію BPMN, тобто про мову моделювання бізнес-процесів. Я, звичайно, постараюся максимально просто описати основи BPMN так, щоб вони були зрозумілі навіть новачкам. Але також важливо розуміти, що тут я буду говорити саме про мову, а не про методології.
+The methodology of business process modeling is a very broad concept, in fact, it is the very base, knowledge of which is necessary for the practical application of business process modeling languages. I will talk about it in future articles more than once. Why do I put emphasis on this? A lot of people (at the time and I) believe that it is enough to study business modeling language, and you will be able to build business processes.
 
-Методологія моделювання бізнес-процесів — це поняття дуже обширне, по суті, це та сама база, знання якої потрібні для практичного застосування мов моделювання бізнес-процесів. Про неї я буду говорити в майбутніх статтях і не раз. Чому я роблю на цьому акцент? Багато людей (і я свого часу також) вважають, що досить вивчити мову бізнес-моделювання, і ви зумієте вибудовувати бізнес-процеси.
+Practice shows that without basic knowledge can not do. And anyone who is just planning to study modeling, I strongly advise you to first get acquainted with the methodology, understand the General principles of business modeling, get some business analysis skills. And only then begin to study in BPMN or any other language.
 
-Практика показує, що без базових знань тут не обійтися. І всім, хто тільки планує вивчення моделювання, я настійно раджу спочатку ознайомитися з методологією, зрозуміти загальні принципи бізнес-моделювання, отримати певні навички бізнес-аналізу. І тільки потім приступати до вивчення BPMN або будь-якого іншого мови.
+And to understand the reasons for the appearance of BPMN and all the nuances of modeling with this system of notations, you will also need knowledge of the main problems that BPMN solves, that used to work before the appearance in BPMN, and what difficulties encountered. After all, the emergence of new systems of notation is impossible without understanding certain issues. And I think that this aspect is very important for understanding the essence of the question, what is actually in BPMN.
 
-А для розуміння причин появи BPMN і всіх нюансів моделювання за допомогою цієї системи нотацій, знадобиться також знання основних проблем, які вирішує BPMN, що для роботи використовували до появи BPMN, і з якими труднощами стикалися. Адже поява нових систем і нотацій неможлива без розуміння певної проблематики. І я вважаю, що цей аспект дуже важливий для розуміння суті питання, що ж таке насправді BPMN.
+Personally I met for the first time in BPMN about eight years ago when I started to study Bizagi system Modeler. I became interested in this system because I have long understood the importance of modeling. Before that, I personally used IDEF0 IDEF3, but there I was faced with certain restrictions. The fact is that several IDEF0 is limited in the number of possibilities. And IDEF3 personally seemed to me too strict and "dry", it was difficult to simulate many types of business processes involving software products.
 
-Особисто я познайомився вперше з BPMN близько восьми років тому, коли почав вивчати систему Bizagi Modeler. Зацікавився Я цією системою через те, що давно вже розумів всю важливість моделювання. До цього я особисто користувався IDEF0 і IDEF3, але там я стикався з певними обмеженнями. Справа в тому, що IDEF0 дещо обмежений за кількістю можливостей. А IDEF3 мені особисто здався надмірно суворим і» сухим", в ньому було складно моделювати багато видів бізнес-процесів за участю програмних продуктів.
-
-У той час Bizagi був відносно простим модулем, в якому був присутній зручний редактор для моделювання (малювання) бізнес процесів, але ще не було ніяких інструментів для виконання бізнес-процесів. Але навіть тоді суворі правила BPMN, прийняті в системі Bizagi, допомагали уникати значного числа помилок, настільки частих при звичайному "малюванні" бізнес-процесів в графічних редакторах або на папері.
+At that time, Bizagi was a relatively simple module that had a convenient editor for modeling (drawing) business processes, but there were no tools to execute business processes. But even then strict rules of BPMN adopted in the system, Bizagi, helped a significant number of errors, the beauties, such as the usual "draw" business processes in graphical editors or on paper.
 
 [1]: https://habrastorage.org/web/629/38b/299/62938b299b23499db337d4f9747446b7.png
 [2]: https://habrastorage.org/web/3da/612/0ca/3da6120caad94617b3b1c9bde2a9daca.png
