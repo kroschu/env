@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Процесний підхід до управління бізнес-процесами підприємства
-description: "Управління бізнес-процесами полягає в тому, що ви регламентуєте, описуєте
-  і змінюєте бізнес-процеси. Саме змінюєте, а не покращуєте, адже ви можете як поліпшити
-  так і погіршити бізнес процес. На відміну від верстата або автомобіля, безпосередньо
-  управляти за допомогою директив або натискання кнопки колективом неможливо. Але
-  ми можемо задати послідовність дій, яку буде виконувати колектив при вирішенні тієї
-  чи іншої задачі. Саме це і називається BPM."
+title: Process approach to enterprise business process management
+description: "the management of business processes is that you reglamentaria describe
+  and change business processes. It is changing, not improving, because you can how to improve
+  and to worsen business process. Unlike machine or car, directly
+  it is not possible to manage the team by means of directives or by pressing the button. Only
+  we can set the sequence of actions that the team will perform in solving the problem.
+  or another task. This is what is called BPM."
 modified: 2018-11-12
 comments: true
 tags: [bpm bpms]
