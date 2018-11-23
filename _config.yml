@@ -28,7 +28,12 @@ owner:
 # Background image to be tiled on all pages
 background: 
 
-# мови перекладу
+webmaster_verifications:
+  google: 1234
+  bing: 1234
+  alexa: 1234
+  yandex: 1234
+  baidu: 1234
 
 
 # Analytics and webmaster tools stuff goes here
