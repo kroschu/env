@@ -2,7 +2,7 @@
 layout: post
 title: "Brief description of BPMN with butt"
 description: "In order to understand what BPMN is, you need to understand that part of this abbreviation "BPM" has two deciphers - Business Process Modeling and Business Process Management."
-tags: [bpm, моделювання]
+tags: [bpm, modeling]
 modified: 2018-11-9
 comments: true
 image:
