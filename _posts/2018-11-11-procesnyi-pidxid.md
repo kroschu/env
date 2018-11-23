@@ -25,7 +25,6 @@ That is why the functioning of Ukrainian enterprises is marked by the need to ap
 
 To address these issues, it is necessary to comprehensively consider the essence of the process approach to management, especially the business processes of the enterprise and ways to improve them.
 
-
 Most enterprises today are built on the functional principle and levels of hierarchy. Such an approach was laid down by Taylor and its development during the last century led to the spread of functional organizational structures of enterprise management. The widespread use of functional management structures, however, poses significant challenges to effective management. The functional units of the enterprise are relatively separate, do not always systematically understand the processes of functioning of the entire organization and are not interested in what does not directly concern them. Communication between the various functional units is often significantly hampered by an excessive tendency to bureaucratic rules of communication up the hierarchy levels.
 
 This approach is typical for the organization of labor in the Soviet enterprises, the descendants of which have a large share of modern companies in my country, that in Western companies-mostly dry, difficult to understand text instructions that relate primarily to the functional approach:
