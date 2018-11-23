@@ -14,7 +14,7 @@ image:
   path: /images/abstract-3.jpg
   feature: abstract-3.jpg
   credit: Ukrainian
-  creditlink: https://treba.tk/
+  creditlink: https://vokov.treba.tk/procesnyi-pidxid/
 ---
 
 The company is a system within which there are many interrelated processes that determine the state of its functioning of the entire organizational system. ** Process approach** - is the consideration of the entire activity of the enterprise as a set of interacting processes occurring within the organizational structure of the enterprise and realize the purpose of its existence. World experience shows that the dynamic development of the market of goods and services, constant changes in the external environment and the growth of competition necessitate the search for new tools and methods of enterprise management.
