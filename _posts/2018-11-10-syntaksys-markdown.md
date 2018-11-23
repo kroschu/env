@@ -12,125 +12,124 @@ image:
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
-Якщо коротко, то Markdown - це проста мова розмітки текстів, який дозволяє створювати фактично повністю оформлену веб-публікацію одночасно з написанням самого матеріалу. «Оформлену» - це означає з гіперпосиланнями, виділенням тексту в потрібних місцях (жирний або курсив), цитатами і списками. У більшості випадків цього досить, а для хардкорних блогерів є ще й розширена версія Markdown з підтримкою таблиць та інших хитрих штук. Але тут вже потрібен особливий софт і подібна функціональність буде потрібно швидше могутнім фахівцям, ніж «простим смертним». В такі нетрі лізти не будемо.
+In short, markdown is a simple markup language that allows you to create a virtually complete web publication at the same time as the writing of the material. "Decorated" means with hyperlinks highlighting the text in the right places (bold or italic), quotes and lists. In most cases, this is enough, and for hardcore bloggers there is also an extended version of markdown with support for tables and other tricky pieces. But here we need a special software such functionality and need powerful professionals faster than"mere mortals". In such a jungle of climb will not.
 
-Формат файлу - звичайний текст, він же TXT. Деякі редактори ще присвоюють розширення «.md», але це лише для зручності та асоціації такого контенту з певним додатком до OS X (Windows, можливо, теж, але в цій ОС справ з MD-редакторами не мав, так що гадати не буду). Наприклад, так робить iA Writer, хоча всередині хитрого файлу з розширенням «.md» все той же звичайний неформатований текст.
+File format-plain text, AKA TXT. Some more extension Editors assign" MD", but this is only for convenience and Association of such content with a certain application to OS x (Windows, perhaps, too, but in this OS I had no deal with MD-editors, so I will not guess). For example, does so the writer I., inside a tricky file with the extension ".TD " all the same the usual unformatted text.
 
-Ідея ж Markdown полягає в наборі простих команд або позначень, які MD-конвертер зможе перетворити у стандартний HTML-код. Простий приклад такого позначення - це виділення тексту зірочками:
+The same markdown Idea is to set simple notation commands or, the MD Converter will be able to convert to standard HTML code. A simple example of this designation is the selection of text with asterisks :
 
-``  *курсив* `` - конвертер перетворює такий текст *курсив*
-`` **жирний** `` - а такий текст буде перетворений в **жирний**
+` *italic* ` Converter converts text be in italics*
+'**bold**, ' and this text will change in * * bold**
 
-А ось так він виглядає у форматі HTML, у який перетворюється Markdown-конвертером. Саме в такому вигляді матеріал додається в адмінку (в режимі HTML-редактора, звичайно ж, забудьте про візуальному редакторі - він живе своїм особливим життям):
+And here is how it looks in HTML format, then what markdown-Converter turns. It is in this form that the material is added to the admin panel (in HTML-editor mode, of course, forget about the visual editor - it lives its own special life):
 
-`` <em>текст</em>  <strong>текст</strong>``
+'<EM > text < / EM> < Strong>to text< / strong>to`
 
-Таким чином, у Markdown можна писати в принципі в будь-якому текстовому редакторі, навіть в самому простому, той же TextEdit. Але в спеціалізованому все ж зручніше з цілого ряду причин, починаючи від вбудованого конвертера і режиму попереднього перегляду результату і закінчуючи автоматизацією введення потрібних команд.
+Thus, in markdown can be written in principle in any text editor, even in the simplest, the same program TextEdit. Ale in specialized is still more convenient for a number of reasons, ranging from the built-in mode Converter and preview of the result and ending with the automation of entering the necessary commands.
 
 
 
-#### Заголовки:
+#### Header:
 
-```
-# Заголовок 1
-## Заголовок 2  
-### Заголовок 3 
-```
+`
+# Heading 1
+## Heading 2  
+### Heading 3 
+`
 
-Результат:
+Result:
 
-# Заголовок 1
-## Заголовок 2
-### Заголовок 3
+# Heading 1
+## Heading 2
+### Heading 3
 
-Перед заголовком ставите ґрати, за нею пробіл і далі за аналогією.
+Before heading to put the gate, then a space, and then by analogy.
 
-#### Списки:
+#### List:
 
-```
-* Markdown це добре 
-* Markdown дуже крутий 
-* Markdown треба знати 
-```
+`
+* Markdown is good 
+* Markdown is very cool 
+* Markdown need to know 
+`
 
-Результат:
+Result:
 
-* Markdown це добре
-* Markdown дуже крутий
-* Markdown треба знати
+* Markdown is good
+* Markdown is very cool
+* Markdown need to know
 
-Тут є важливий нюанс - щоб конвертер вірно зрозумів команду, над списком повинна бути порожній рядок, а після зірочки - пробіл. Також можна створювати і нумеровані списки, але тоді замість зірочки ставиться цифра з комою, а після - пробіл. Для того, щоб створити вкладений список усередині основного списку, треба під потрібним пунктом вставити порожній рядок, після чого один клік на «Tab» і далі за аналогією - зірочка→пробіл→пункт списку.
+There is an important nuance-the Converter to understand the command correctly, there should be an empty line above the list, and a space after the asterisk. You can also create numbered lists, but then put a semicolon instead of an asterisk, followed by a space. In order to create a nested list inside the main list, you need to insert an empty line under the desired item, then one click on the" tab " and then by analogy - an asterisk→space→list item.
 
-#### Цитати
+#### Quotes
 
-``` 
-> Цитата 
+` 
+> Quote 
 
->> Вкладена цитата 
- ```
+>> A nested quote 
+ `
 
-Результат:
+Result:
 
-> Цитата
+> Quote
 
->> Вкладена цитата
+>> A nested quote
 
-Всередині цитати можна додавати заголовки, списки і т. п. В HTML за додавання цитат відповідає команда `` <blockquote> ``, у неї й перетворюється поставлений перед текстом символ «>»
+Inside the quotes you can add headings, lists, etc. In HTML-adding citations team, ` <blockquote> `, it turns put before the text character ">»
 
-Також можна ще додавати зображення, будувати таблиці
+You can also add images, build tables
 
-#### Таблиці
+#### Tables
 
-```
+`
 | Header1 | Header2 | Header3 |
 |:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
+| cell1 | cell2 | cell3 |
+| cell4 | cell5 | cell6 |
 |----
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|=====
-| Foot1   | Foot2   | Foot3
-{: rules="groups"}
-```
+| cell1 | cell2 | cell3 |
+| cell4 | cell5 | cell6 |
+| = = = = =  
+| Foot1 | Foot2 | Foot3
+{: rules= " groups"}
+`
 
-Результат:
+Result:
 
 | Header1 | Header2 | Header3 |
 |:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
+| cell1 | cell2 | cell3 |
+| cell4 | cell5 | cell6 |
 |----
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|=====
-| Foot1   | Foot2   | Foot3
-{: rules="groups"}
+| cell1 | cell2 | cell3 |
+| cell4 | cell5 | cell6 |
+| = = = = =  
+| Foot1 | Foot2 | Foot3
+{: rules= " groups"}
 
-#### Вставки програмного коду
+#### Insert program code
 
-З підсвіткою операторів:
+With illuminated operators:
 
-```css
+"'css
 #container {
   float: left;
-  margin: 0 -240px 0 0;
+  margin: 0 x 240 pixels, 0 0;
   width: 100%;
 }
-```
+`
 
 
-```css
+"'css
 #container {
   float: left;
-  margin: 0 -240px 0 0;
+  margin: 0 x 240 pixels, 0 0;
   width: 100%;
 }
-```
+`
 
-та без такої:
+and without such:
 
-    <div id="awesome">
-        <p>This is great isn't it?</p>
-    </div>
-
+    <div id= "amazing">
+        < P > that's great, isn't it?< / p>
+    </div element>
