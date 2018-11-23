@@ -16,6 +16,7 @@ image:
   credit: Ukrainian
   creditlink: https://treba.tk/
 ---
+
 The company is a system within which there are many interrelated processes that determine the state of its functioning of the entire organizational system. ** Process approach** - is the consideration of the entire activity of the enterprise as a set of interacting processes occurring within the organizational structure of the enterprise and realize the purpose of its existence. World experience shows that the dynamic development of the market of goods and services, constant changes in the external environment and the growth of competition necessitate the search for new tools and methods of enterprise management.
 
 The modern external environment of enterprises is characterized by an extremely high level of complexity, variability and uncertainty. In such circumstances, the main task of the company is to respond quickly to changes and the introduction of appropriate measures in the organization and implementation of production activities.
@@ -24,7 +25,6 @@ That is why the functioning of Ukrainian enterprises is marked by the need to ap
 
 To address these issues, it is necessary to comprehensively consider the essence of the process approach to management, especially the business processes of the enterprise and ways to improve them.
 
-<!--- excerpt-break-->
 
 Most enterprises today are built on the functional principle and levels of hierarchy. Such an approach was laid down by Taylor and its development during the last century led to the spread of functional organizational structures of enterprise management. The widespread use of functional management structures, however, poses significant challenges to effective management. The functional units of the enterprise are relatively separate, do not always systematically understand the processes of functioning of the entire organization and are not interested in what does not directly concern them. Communication between the various functional units is often significantly hampered by an excessive tendency to bureaucratic rules of communication up the hierarchy levels.
 
