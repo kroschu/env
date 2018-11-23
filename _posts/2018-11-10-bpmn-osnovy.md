@@ -9,7 +9,7 @@ image:
   path: /images/abstract-7.jpg
   feature: abstract-7.jpg
   credit: Ukrainian
-  
+  creditlink: https://vokov.treba.tk/bpmn-osnovy/
 ---
 
 ![Brief description of BPMN][1]
