@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Cинтаксис Markdown
-description: "Для роботи з сервісами, що я пропоную використовувати як інструменти колективної роботи над проектами з оптимізації урравління виробнисими ррцесами, необхідним є оозуміння мови розмітки документів Markdown."
+title: The Syntax Of Markdown
+description: "to work with the services that I propose to use as tools for collective work on projects to optimize the equation by the producers of the processes, it is necessary to understand the markup language of Markdown documents."
 modified: 2014-12-24
 comments: true
 tags: [sample post]
