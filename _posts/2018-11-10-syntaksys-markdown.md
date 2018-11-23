@@ -8,8 +8,8 @@ tags: [sample post]
 image:
   path: /images/abstract-3.jpg
   feature: abstract-3.jpg
-  credit: vokov
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  credit: Ukrainian
+  creditlink: https://vokov.treba.tk/syntaksys-markdown/
 ---
 
 In short, markdown is a simple markup language that allows you to create a virtually complete web publication at the same time as the writing of the material. "Decorated" means with hyperlinks highlighting the text in the right places (bold or italic), quotes and lists. In most cases, this is enough, and for hardcore bloggers there is also an extended version of markdown with support for tables and other tricky pieces. But here we need a special software such functionality and need powerful professionals faster than"mere mortals". In such a jungle of climb will not.
