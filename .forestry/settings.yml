@@ -18,11 +18,9 @@ sections:
 - type: document
   path: Gemfile
   label: Gemfile
-  match: "**/*"
 - type: document
   path: _config.yml
   label: Config
-  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
