@@ -60,4 +60,4 @@ fields:
   hidden: false
   default: ''
 pages:
-- _posts/bpmn.md
+- _posts/2018-11-28-bpmn.md
