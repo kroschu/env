@@ -1,5 +1,126 @@
 ---
 title: 'BPMN '
 date: 2018-11-28 06:11:06 +0200
+layout: post
+image:
+  feature: ''
+  credit: ''
+  creditlink: ''
+  path: ''
+comments: false
+modified: ''
+description: ''
+tags: []
 
 ---
+[![] (/images/C9531BD6-A287-4620-AAFB-45CC43CCD1EB.jpeg)] (/images/bpmn1_1_poster_ru..pdf " bpmn1_1_poster_ru..pdf")
+
+BPMN notation is a popular business process modeling language. This notation is the result of an analysis of the entire modeling experience and other notations in the history of modeling.
+
+BPMN not only gathered all the best from other notations, but also created something completely new.  
+The modeling of business processes starts with notation. A notation begins with the study of its elements.  Let's talk about the main elements of notation.  
+Notation elements look the same in all programs. Only the fill color of the shapes can be different. But the figures themselves, the thickness and shape of the lines are universal. So you will not confuse the start and end event, regardless of the simulation program. By the way, in the standard of notation, all graphic elements are given in black and white.
+
+### Pool
+
+![BPMN pool notation](http://rzbpm.ru/wp-content/uploads/2016/03/%D0%9F%D1%83%D0%BB-620x236.png)
+
+The pool symbolizes an employee performing a role in the process. If you want to show that a chain of operations is performed by a specific role, put those operations in the pool. This view allows you to very clearly show the interaction between the roles of employees in the process. The pool is the responsibility of the role. Why Raleigh? The logic is very simple-each employee performs several roles. The set of roles is the position. Each role requires specific knowledge and skills. So, if you define the roles in the processes and determine the roles of a particular position, you can easily create job descriptions.
+
+![Notation BPMN пул2](http://rzbpm.ru/wp-content/uploads/2016/03/2016-03-26_23-21-35.png)Operations in the Pool
+
+And yet, with the help of a pool, you can display software or some tool. Like a machine. This view of the business process is sometimes necessary. For example, you can display the interaction between a worker and equipment.
+
+Only BPMN notation has pools. In my opinion, this is a very serious advantage over [other notary](http://rzbpm.ru/knowledge/samye-populyarnye-notacii-opisaniya-i-modelirovaniya-biznes-processov.html).
+
+### Operation
+
+![Notation BPMN-operate](http://rzbpm.ru/wp-content/uploads/2016/03/%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F-150x77.png)
+
+Operation (task, activity, action) is one of the main elements of the model. An operation is an elementary action that must be performed. Elementary-so does not require detailing, decomposition at this level, in this model.
+
+### Process / subprocess
+
+![Notation BPMN-Pcprices](http://rzbpm.ru/wp-content/uploads/2016/03/%D0%9F%D0%BE%D0%B4%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81-150x77.png)
+
+If an operation includes a series of actions that you want to describe, it becomes a process. A process or subprocess is also an action, but you can open it and see what is going on inside.
+
+![BPMN notation-process decomposition](http://rzbpm.ru/wp-content/uploads/2016/03/2016-03-26_23-23-29.png) process decomposition
+
+### Event
+
+![Notation BPMN-pada](http://rzbpm.ru/wp-content/uploads/2016/03/%D0%A1%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D1%8F-80x150.png)
+
+The event is another core element of the business process model. Events determine the progress of the process. Events are what just happened. This is a circumstance, a condition, on the basis of which we act further. Events are the "if" condition in the "if — then" chain. If it's raining outside, we should get an umbrella. Rain is an event, a condition that defines the settling actions in the process. Events can be different:
+
+* Time event-end of some time (in an hour) or date / time (at 10: 00)
+* State event — rain, called a friend, dropped the dollar, etc.
+* Notification event-for example, an email has arrived.
+* Etc. More details about event types will be written next.
+  ![Notation BPMN intermediate event](http://rzbpm.ru/wp-content/uploads/2016/03/2016-03-26_23-26-02.png)date of contact with the customer-an example of the intermediate event
+
+Events are divided into 3 types: start events determine the conditions for the start of the process, intermediate events determine the development of the process and the end event, reflects the condition under which we believe that the process is over. Business process modeling begins by identifying start and finish events. In many notations there are events. But only BPMN notation made them specific.
+
+### Branching
+
+![Notation BPMN-rosaleena](http://rzbpm.ru/wp-content/uploads/2016/03/%D0%92%D0%B5%D1%82%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-150x142.png)
+
+A branch or gateway is a logical fork in the process. If there is a fork, then the process can develop differently, depending on the conditions. The simplest fork gives 2 variants of development of events. For example, a fork in the road "on the street it is raining?", has two options answer-Yes or no. Accordingly, from the answer, the conditions depend on the next steps in the process. In more complex cases, with the fork can go a lot of options, with events that determine the direction of the process. And yet the branching "collect" the conditions when they all must be met, to move to the next operation of the process. I will write more about the forks further.
+
+### Workflow
+
+![Notation BPMN flow operaci](http://rzbpm.ru/wp-content/uploads/2016/03/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9-%D0%BF%D0%BE%D1%82%D0%BE%D0%BA-150x24.png)
+
+The arrow just connects operations and processes and shows the order of actions in the process. In addition to the order of execution, the arrow can also indicate the result of the previous process, which is used in the following. To do this, you need to make a signature to the Arrow.
+
+### Message flow
+
+![Notation BPMN flow podollan](http://rzbpm.ru/wp-content/uploads/2016/03/%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BF%D0%BE%D1%82%D0%BE%D0%BA-150x49.png)
+
+A message flow shows the information exchange between participants (pools). The fact is that the operations of the participants cannot be connected to each other by the workflow. That, in principle, is logical. Instead, they exchange messages. So if you want to show that the process is moving from one participant to another, connect the operations with a message flow. To concretize the message, you can make a caption to the Arrow. More on.
+
+![Notation BPMN message flows](http://rzbpm.ru/wp-content/uploads/2016/03/2016-03-26_23-28-15.png)message Flows
+
+### Data object
+
+![Notation BPMN-object danih](http://rzbpm.ru/wp-content/uploads/2016/03/%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-1-81x150.png)
+
+A data object is information that needs to be reflected in the process. It can be a document, or a letter or a call. By the way, from the point of view of the management of business processes, any information in material form, a document request, a letter, TEXT, paper document, etc. When connecting a data object with the operation, it is necessary to consider the direction of the arrow. If the arrow goes from data to operation, then the data is used to perform the operation. If the arrow goes from an operation to a data object, the data appears as a result of the operation. Modeling business processes without data objects does not make much sense.
+
+### Association
+
+![Notation BPMN-Asiaa](http://rzbpm.ru/wp-content/uploads/2016/03/%D0%90%D1%81%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D1%86%D0%B8%D1%8F-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-150x50.png)
+
+This type of connection is used to reflect the relationship of information objects and databases with operations. In this case, the Association arrow will have a direction.
+
+![BPMN Asiaa](http://rzbpm.ru/wp-content/uploads/2016/03/%D0%90%D1%81%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D1%86%D0%B8%D1%8F-150x20.png)If the order of read/write data does not matter, you can set Association without a referral. Usually used to connect text notation with other elements. Or, for example, you can reflect the relationship between an event and a document. The final event of the report generated process can be connected to the report document by Association.
+
+![BPMN document notation](http://rzbpm.ru/wp-content/uploads/2016/03/2016-03-26_23-29-26.png) cold calls plan. Appears as a result of one process and is used in another.
+
+## Auxiliary basic elements. BPMN 2.0 notation
+
+### Track
+
+![Notation BPMN-Dorica](http://rzbpm.ru/wp-content/uploads/2016/03/%D0%94%D0%BE%D1%80%D0%BE%D0%B6%D0%BA%D0%B8-620x252.png)
+
+Paths exist within the pools. Using a track is convenient to display multiple roles, for example, within a Department. In this case, the pool will be a Department and the track will display employees. Between operations in the tracks there may be a workflow that is also true. For example, tracks can reflect machines that perform operations and transition from one machine to another.
+
+### Data base
+
+![Notation BPMN repository danih](http://rzbpm.ru/wp-content/uploads/2016/03/%D0%91%D0%B0%D0%B7%D0%B0-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-150x96.png)
+
+Database or data warehouse, This is the place where the data is stored))) Straight captain Obvious! It can be an electronic database, a program, a folder on a hard disk, a paper folder, a Cabinet where documents are stored... It can be anything! As with a data object, the direction of the arrow connecting the database to the operation is important. From database to operation-the operation uses the database to retrieve data. From operation to database-the operation puts the data into the database.
+
+### Group
+
+![Notation BPMN-group](http://rzbpm.ru/wp-content/uploads/2016/03/%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%B0-150x77.png)
+
+It's just a visual grouping of business process elements. For example, you can use it to display the stages of a business process.
+
+### Text annotation
+
+![Notation BPMN-Anotace](http://rzbpm.ru/wp-content/uploads/2016/03/%D0%90%D0%BD%D0%BE%D1%82%D0%B0%D1%86%D0%B8%D1%8F-150x77.png)
+
+Text support of any element of the business process model. With the help of annotation you can add the necessary information directly to the process model. Sometimes it allows you to completely get rid of the text support of the model in the description of the business process.
+
+[Materials rzbpm.ru ](http://rzbpm.ru/knowledge/notaciya-bpmn-bazovie-elementi.html "Permalink to Modeling business processes. Notation BPMN")
