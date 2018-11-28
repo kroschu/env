@@ -59,5 +59,3 @@ fields:
   type: tag_list
   hidden: false
   default: ''
-pages:
-- _posts/bpmn.md
